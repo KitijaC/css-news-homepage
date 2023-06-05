@@ -1,0 +1,22 @@
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+.header-container {
+    display: flex;
+}
+
+.header-navigation-bar {
+    margin-left: auto;
+}
+
+.header-navigation-bar ul li {
+    display: inline;
+}
+
+.header-navigation-bar a {
+    color: #5E607A;
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 400;
+}
