@@ -24,6 +24,10 @@
   font-size: 15px;
   line-height: 26px;
   font-weight: 400;
+  cursor: pointer;
+}
+.header-navigation-bar ul li a:hover {
+  color: #F15D51;
 }
 .header-navigation-bar ul li:not(:last-child) {
   padding-right: 40px;
@@ -76,6 +80,10 @@
   line-height: 24px;
   letter-spacing: 4.38px;
   border: none;
+}
+.content-container .read-more-btn button:hover {
+  background-color: #00001A;
+  cursor: pointer;
 }
 
 .news-bar {
@@ -137,6 +145,10 @@
   line-height: 24px;
   padding-bottom: 9px;
 }
+.article-title-first p:hover {
+  color: #F15D51;
+  cursor: pointer;
+}
 
 .article-text-first {
   grid-area: article-text-first;
@@ -180,6 +192,10 @@
   line-height: 24px;
   padding-bottom: 9px;
 }
+.article-title-second p:hover {
+  color: #F15D51;
+  cursor: pointer;
+}
 
 .article-text-second {
   grid-area: article-text-second;
@@ -222,6 +238,10 @@
   font-weight: 800;
   line-height: 24px;
   padding-bottom: 9px;
+}
+.article-title-third p:hover {
+  color: #F15D51;
+  cursor: pointer;
 }
 
 .article-text-third {

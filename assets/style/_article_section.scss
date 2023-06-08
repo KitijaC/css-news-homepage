@@ -30,6 +30,11 @@
         line-height: 24px;
         padding-bottom: 9px;
     }
+
+    p:hover {
+        color: #F15D51;
+        cursor: pointer;
+    }
 }
 
 .article-text-first {
@@ -76,6 +81,11 @@
         font-weight: 800;
         line-height: 24px;
         padding-bottom: 9px;
+    }
+
+    p:hover {
+        color: #F15D51;
+        cursor: pointer;
     }
 }
 
@@ -124,6 +134,11 @@
         font-weight: 800;
         line-height: 24px;
         padding-bottom: 9px;
+    }
+    
+    p:hover {
+        color: #F15D51;
+        cursor: pointer;
     }
 }
 

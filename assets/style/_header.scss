@@ -8,13 +8,20 @@
     
     ul li {
         display: inline;
+
         a {
             color: #5E607A;
             font-size: 15px;
             line-height: 26px;
             font-weight: 400;
+            cursor: pointer;
+        }
+
+        a:hover {
+            color: #F15D51;
         }
     }
+
     ul li:not(:last-child) {
         padding-right: 40px;
     }
