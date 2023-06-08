@@ -1,0 +1,12 @@
+@media (min-width: 992px) {
+    .content-container {
+        display: grid;
+        grid-template-areas: 
+        "main-image main-image main-image main-image news-bar news-bar"
+        "main-title main-title main-text main-text news-bar news-bar"
+        "main-title main-title read-more-btn read-more-btn news-bar news-bar"
+        "article-image-first article-number-first article-image-second article-number-second article-image-third article-number-third"
+        "article-image-first article-title-first article-image-second article-title-second article-image-third article-title-third"
+        "article-image-first article-text-first article-image-second article-text-second article-image-third article-text-third";
+    }
+}

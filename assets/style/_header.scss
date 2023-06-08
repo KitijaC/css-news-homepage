@@ -1,0 +1,21 @@
+.header-container {
+    display: flex;
+    padding-bottom: 55px;
+}
+
+.header-navigation-bar {
+    margin-left: auto;
+    
+    ul li {
+        display: inline;
+        a {
+            color: #5E607A;
+            font-size: 15px;
+            line-height: 26px;
+            font-weight: 400;
+        }
+    }
+    ul li:not(:last-child) {
+        padding-right: 40px;
+    }
+}
