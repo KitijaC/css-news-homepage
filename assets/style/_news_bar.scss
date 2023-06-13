@@ -25,7 +25,10 @@
         font-size: 15px;
         font-weight: 400;
         line-height: 26px;
+        padding-bottom: 29px;
+    }
+
+    p:not(:last-child) {
         border-bottom: solid 1px #5E607A;
-        padding-bottom: 29px;;
     }
 }
